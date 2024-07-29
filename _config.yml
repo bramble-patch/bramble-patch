@@ -1,0 +1,43 @@
+# site settings, does not automatically refresh with jekyll serve
+
+# url settings
+# adding baseurl to url does not automatically prepend it to links
+url: https://sitename.github.io
+# baseurl: /webbed-site
+
+# sass location
+sass:
+    sass_dir: _sass
+
+# site collections
+# each collection (_foldername) must be enabled here, or site.collectionname doesn't work (ex: breaks listing pages)
+collections:
+  wikipagesdir:
+    output: true # creates a page for each document. if false, your .md file won't be linkable even if it exists
+
+# define collections directory, if you want it somewhere besides root
+# collections_dir: collections
+
+# kramdown, jekyll's default markdown renderer https://github.com/kramdown/parser-gfm
+# you can change specific settings or use an entirely different processor
+# kramdown:
+#   gfm_quirks: [paragraph_end]
+
+# front matter defaults: automatically add values to front matter (ex: assign layouts to specific page types)
+# scope = WHICH files to add to, values = WHAT values to add
+# general paths are overriden by more specific ones, which are overriden by in-file front matter
+defaults:
+  - scope: # default template
+      path: ""
+    values:
+      layout: "default"
+  - scope: # wikipage template
+      path: "" # select all files in project
+      type: "wikipagesdir" # optional, select filetype within the above path (pages, posts, drafts, or [collectionname])
+    values: # can add your own values, ex: universe: "canyoncrossroads"
+      layout: "wikipage"
+      background: tilesea
+
+# excerpt separator for blog posts
+# gets rid of "excerpt separator" replacement warning for pages with raw/endraw
+excerpt_separator: <!-- excerpt separator -->

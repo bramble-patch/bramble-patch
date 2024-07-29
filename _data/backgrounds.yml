@@ -1,0 +1,8 @@
+# stores data for emojis, call with "site.data.backgrounds"
+# gradients count as background-image, but you can also use the shorthand background for multiple types
+
+default: "rgb(100,100,100)"
+royalblue: "royalblue"
+
+# images only work if entry is surrounded by "" and url is surrounded by '', not the other way around
+tilesea: "url('/assets/images/backgrounds/tilesea.png')"

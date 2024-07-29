@@ -1,0 +1,9 @@
+# stores data for navigation bar, call with "site.data.navigation"
+# baseurl is prepended in topnav.html
+
+- name: home
+  link: /
+- name: about
+  link: /about.html
+- name: wiki
+  link: /wikipages.html
