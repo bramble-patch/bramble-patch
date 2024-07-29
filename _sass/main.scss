@@ -54,7 +54,8 @@ div { // markdown does not generate divs as far as i can tell, this is for photo
   margin: calc(#{$elementmargintb} / 2) 0 0 0;
 }
 main { // main layout element, contains page content in indexmain (and indexside)
-  background: $colorbox1;
+  // background: $colorbox1;
+  background: rgb(153, 77, 0);
   max-width: 100%;
   margin-top: $gapheight;
   padding: $boxpadding;
@@ -62,7 +63,7 @@ main { // main layout element, contains page content in indexmain (and indexside
   // br {display: none;} // for {{ content | newline_to_br }}
   // p br {display: inline;}
   // can't remove margin-top from first children or else it affects everything
-  box-shadow: calc(#{$gapheight} / 2) calc(#{$gapheight} / 2) black;
+  // box-shadow: calc(#{$gapheight} / 2) calc(#{$gapheight} / 2) black;
 }
 div.indexmain { // main content
   order: 1;
@@ -381,13 +382,14 @@ footer {
   }
 }
 nav { // horizontal navbar
-  background: $colorbox2;
+  // background: $colorbox2;
+  background: rgb(153, 77, 0);
   font-size: 1.2em;
   max-width: 100%;
   margin-top: $gapheight;
   text-align: center;
   padding: calc(#{$boxpadding} / 2);
-  box-shadow: calc(#{$gapheight} / 2) calc(#{$gapheight} / 2) black;
+  // box-shadow: calc(#{$gapheight} / 2) calc(#{$gapheight} / 2) black;
   img {
     height: 1em;
   }
