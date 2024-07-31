@@ -14,8 +14,8 @@ body { // put overall styles here (gradients count as background-image)
   // background: $colorbg;
   // background: url("/assets/images/tilenight.png");
   // background: linear-gradient(0deg, rgba(215,128,61,1) 0%, rgba(172,172,104,1) 13%, rgba(128,180,115,1) 23%, rgba(22,166,145,1) 41%, rgba(0,126,206,1) 62%, rgba(89,61,163,1) 100%);
-  color: $colorwhite;
-  font-family: 'Anonymous Pro', monospace;
+  color: $colorblue;
+  font-family: "Times New Roman", Times, serif;
   font-size: 118%; // sets base size for em to use
   margin: 0; // full screen
   min-height: 100%; // full screen
@@ -151,9 +151,8 @@ div.iframecontainer { // for normal iframes
 // MAIN CONTAINED ELEMENTS /////////////////////////////////////////////////////////////////////////////
 h1 {
   @include replace-bgcolor($colorbox3, $colortoggle);
-  color: $coloryellow;
-  font-family: "Anton";
-  font-size: 2.2em;
+  font-family: skeletons, Times, serif;
+  font-size: 2.8em;
   text-align: center;
   // display: inline-block;
   margin: 0 0 calc(#{$elementmargintb} / 1) 0;
@@ -161,7 +160,7 @@ h1 {
 }
 h2 {
   @include replace-bgcolor($colorbg, $colortoggle);
-  color: $colororange;
+  font-family: ghostfront, Times, serif;
   font-size: 1.6em;
   // margin: calc(#{$elementmargintb} / 1) 0;
   margin: calc(#{$elementmargintb} / 1) 0 0 0;

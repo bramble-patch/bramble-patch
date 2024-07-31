@@ -1,5 +1,5 @@
 ---
-title: wikipage listing
+title: wikipages
 layout: wikipage-listing
 listcategory: wikipagesdir
 ---

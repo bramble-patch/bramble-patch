@@ -10,16 +10,16 @@ $elementmargintb: 40px; // top/bottom spacing for contained elements, ex: h1 or 
 $lineheight: 1.4em; // for normal text and emojis, 1.6 is recommended, wikibox p's are reset to "normal" (~110%-120%)
 
 $colorbg: rgb(26,28,43);
-$colorbox1: rgba(153,77,0,0.8); // dark orange
+$colorbox1: rgba(115,77,38,0.8); // dark orange
 $colorbox2: rgb(53,78,81);
 $colorbox3: rgb(47,98,81);
-$colorwhite: rgb(235,231,214);
 
+$colorwhite: rgb(235,231,214);
 $colorred: rgb(255,94,126);
 $colororange: coral;
 $coloryellow: orange;
 $colorgreen: rgb(127,217,68);
-$colorblue: rgb(77, 198, 255);
+$colorblue: rgb(51,153,255); // light blue
 $colorpurple: plum;
 
 // SCSS FUNCTION TO TOGGLE BACKGROUND COLORS ON OR OFF (I'M A GENIUS) //////////////////////////////////////////
@@ -35,6 +35,21 @@ $colortoggle: false;
 }
 
 // FONTS /////////////////////////////////////////////////////////////////////////////
-@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@font-face { // set custom font
+  font-family: skeletons;
+  src: url("/assets/fonts/TangoMacabre.ttf"); // requires leading /, does not accept liquid site.baseurl
+}
+@font-face {
+  font-family: ghost;
+  src: url("/assets/fonts/Groovy_Ghosties.otf"); // requires leading /, does not accept liquid site.baseurl
+}
+@font-face {
+  font-family: ghostfront;
+  src: url("/assets/fonts/Groovy_Ghosties_Front.otf"); // requires leading /, does not accept liquid site.baseurl
+}
+@font-face {
+  font-family: ghostback;
+  src: url("/assets/fonts/Groovy_Ghosties_Back.otf"); // requires leading /, does not accept liquid site.baseurl
+}
