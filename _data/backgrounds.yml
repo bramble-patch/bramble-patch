@@ -6,3 +6,4 @@ royalblue: "royalblue"
 
 # images only work if entry is surrounded by "" and url is surrounded by '', not the other way around
 tilesea: "url('/assets/images/backgrounds/tilesea.png')"
+tilebug: "url('/assets/images/backgrounds/bugtiles.png')"

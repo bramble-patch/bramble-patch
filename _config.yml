@@ -31,12 +31,13 @@ defaults:
       path: ""
     values:
       layout: "default"
-  - scope: # wikipage template
+      background: tilebug
+  - scope: # wikipage template (if removed, breaks wikipage infobox for some reason?)
       path: "" # select all files in project
       type: "wikipagesdir" # optional, select filetype within the above path (pages, posts, drafts, or [collectionname])
     values: # can add your own values, ex: universe: "canyoncrossroads"
       layout: "wikipage"
-      background: tilesea
+      background: tilebug
 
 # excerpt separator for blog posts
 # gets rid of "excerpt separator" replacement warning for pages with raw/endraw

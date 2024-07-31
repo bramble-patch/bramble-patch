@@ -4,7 +4,7 @@
 
 // MAIN CONTAINERS /////////////////////////////////////////////////////////////////////////////
 html {
-  background: $colorbg; // color sometimes shows behind desktop scrollbar
+  background: white; // color sometimes shows behind desktop scrollbar
   height: 100%; // full screen, base for other adjustments including background
   scroll-behavior: smooth; // for jumping between anchors (must be in html section)
 }
@@ -55,7 +55,7 @@ div { // markdown does not generate divs as far as i can tell, this is for photo
 }
 main { // main layout element, contains page content in indexmain (and indexside)
   // background: $colorbox1;
-  background: rgb(153, 77, 0);
+  background: $colorbox1;
   max-width: 100%;
   margin-top: $gapheight;
   padding: $boxpadding;
@@ -383,7 +383,7 @@ footer {
 }
 nav { // horizontal navbar
   // background: $colorbox2;
-  background: rgb(153, 77, 0);
+  background: $colorbox1;
   font-size: 1.2em;
   max-width: 100%;
   margin-top: $gapheight;
