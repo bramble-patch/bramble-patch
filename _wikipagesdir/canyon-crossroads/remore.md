@@ -24,7 +24,7 @@ A remore goes unseen much of the time but can manifest physically if they wish. 
 - This can not be done unwillingly. Because of the intimate nature of the relationship, both parties MUST agree to coexist.  
 - Babyface and The Perfect Wife are one of the few known examples of two ghosts who live in this state. Even then, Committee ghosts are hesitant to discuss it. 
 - Every known example (there are three unclassified instances in Committee records throughout all of time) involves two ghosts, but there is no reason to believe there can't be more ghosts involved.
-- Some observers have confused this phenomena with Dissasociative Identity Disorder. However, there is no evidence remore cause amnesia or disasociation, nor do they "switch" with their hosts. Additionally, remore are acquired at a specific date that can occasionally be corroborated by other witnesses. There is no evidence that DID and remore acquisition are linked.
+- Some observers have confused this phenomena with Dissasociative Identity Disorder. However, there is no evidence remore cause amnesia or disasociation, nor do they "switch" with their hosts. Additionally, remore are acquired on a specific date, proposed by two parties, that may be corroborated by other witnesses. There is no evidence that DID and remore acquisition are linked.
 
 ## gallery
 
