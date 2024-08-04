@@ -15,7 +15,7 @@ data:
 Babyface is a rogue ghost with 3 confirmed sightings. 
  
 
-## Information
+## Description
 
 Babyface is above average human height and weight. She typically wears a porcelain soup bowl with holes bored in it as a mask, and animal skins. 
 She uses magic sparingly, mostly in protection runes around her camp carved into lightweight stones. Babyface generally defends herself with her fists and her axe. She is in a relationship (the easiest way to describe it would be romantic) with The Good Wife, her remore.
