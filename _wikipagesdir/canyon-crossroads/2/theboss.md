@@ -9,7 +9,6 @@ data:
     pronouns: she/her
   abilities:
     weapon: none
-    remore: none
 ---
 
 The Boss is a supervising field agent for the SEA 2 branch of the Committee (AAC).
