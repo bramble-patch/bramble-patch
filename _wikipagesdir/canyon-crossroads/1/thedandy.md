@@ -9,13 +9,12 @@ data:
     pronouns: he/him
   abilities:  
     weapon: knives and daggers, occasionally swordcanes or improvised blunt objects
-    remore: none
 ---
 
 The Dandy is a frequently sighted rogue ghost. He is not safe to talk to and approach.    
  
 
-## Information
+## Description
 
 The Dandy is a young man in fancy dress. His costume is not consistent to a specific time period, but unless you have lived through those times and have a particular eye for fashion, it's not very obvious. He has slick dark hair and occasionally wears hats and carries canes or umbrellas. His eyes are obscured but likely do not exist. Surviving victimes report grid-like scratches in the eye socket area with no blood or scarring.
 
